@@ -10,13 +10,24 @@ function will receive 3 arguments => req, res, next
 * basically this next function you are receiving here has to be executed to allow 
 the request to travel on to the next middleware
 */
-app.use((req,res,next) =>{
-    console.log('In the middleware!');
+app.use('/',(req,res,next) =>{
+    //console.log('This always run!');
     next();
 
 });
-app.use((req,res,next) =>{
-    console.log('In another middleware!');
+app.use('/add-product',(req,res,next) =>{
+    //console.log('In another middleware!');
+    res.send('<form action="/product" method="POST"><input type="text" name="title"/><button type="submit">Add product</button></form>');
+
+});
+app.use('/product',(req,res,next)=>{
+    console.log(req.body);
+    res.redirect('/');
+
+});
+
+app.use('/',(req,res,next) =>{
+    //console.log('In another middleware!');
     res.send('<h1>Hello from Express !</h1>');
 
 });
