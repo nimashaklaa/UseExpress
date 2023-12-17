@@ -1,6 +1,7 @@
-const http = require('http');
+//const http = require('http');
 
 const express = require('express');
+const bodyParser = require('body-parser');
 
 const app = express();
 /* use allow us to add a new middleware function. It accepts an array of so-called
@@ -10,27 +11,34 @@ function will receive 3 arguments => req, res, next
 * basically this next function you are receiving here has to be executed to allow 
 the request to travel on to the next middleware
 */
-app.use('/',(req,res,next) =>{
-    //console.log('This always run!');
-    next();
+const adminRoutes = require('./routes/admin');
+const shopRoutes = require('./routes/shop');
+app.use(bodyParser.urlencoded({extended: false}));
 
-});
-app.use('/add-product',(req,res,next) =>{
+app.use('/admin',adminRoutes);
+/* This allows us to put a common starting position */
+app.use(shopRoutes);
+
+/*app.use('/add-product',(req,res,next) =>{
     //console.log('In another middleware!');
     res.send('<form action="/product" method="POST"><input type="text" name="title"/><button type="submit">Add product</button></form>');
 
 });
-app.use('/product',(req,res,next)=>{
+app.post('/product',(req,res,next)=>{
     console.log(req.body);
     res.redirect('/');
 
-});
+});*/
 
-app.use('/',(req,res,next) =>{
+/*app.use('/',(req,res,next) =>{
     //console.log('In another middleware!');
     res.send('<h1>Hello from Express !</h1>');
 
-});
-const server = http.createServer(app);
+});*/
 
-server.listen(3000);
+app.use((req,res,next)=>{
+    res.status(404).send('<h1>Page not found</h1>')
+})
+//const server = http.createServer(app);
+
+app.listen(3000);
