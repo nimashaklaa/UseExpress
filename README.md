@@ -1,6 +1,6 @@
 # Express.js Project
 
-This is a sample README for an Express.js project.
+
 
 ## Table of Contents
 
