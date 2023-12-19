@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffc3ab6f-a210-4b08-a66e-40eba4d95e49" name="Changes" comment="UPDATE all">
+    <list default="true" id="ffc3ab6f-a210-4b08-a66e-40eba4d95e49" name="Changes" comment="UPDATE all the files with routing">
+      <change afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/product.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello.js" beforeDir="false" afterPath="$PROJECT_DIR$/hello.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/404.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/add-product.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/add-product.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/shop.html" afterDir="false" />
@@ -65,7 +68,8 @@
       <workItem from="1702728425443" duration="714000" />
       <workItem from="1702788332022" duration="9833000" />
       <workItem from="1702850854421" duration="6311000" />
-      <workItem from="1702894658588" duration="4214000" />
+      <workItem from="1702894658588" duration="6562000" />
+      <workItem from="1702942756986" duration="1550000" />
     </task>
     <task id="LOCAL-00001" summary="UPDATE hello.js">
       <created>1702727295983</created>
@@ -98,7 +102,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702893058544</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="UPDATE all the files with routing">
+      <option name="closed" value="true" />
+      <created>1702899438544</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1702899438544</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,6 +130,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="UPDATE hello.js" />
     <MESSAGE value="UPDATE all" />
-    <option name="LAST_COMMIT_MESSAGE" value="UPDATE all" />
+    <MESSAGE value="UPDATE all the files with routing" />
+    <option name="LAST_COMMIT_MESSAGE" value="UPDATE all the files with routing" />
   </component>
 </project>

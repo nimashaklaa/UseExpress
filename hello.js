@@ -15,6 +15,8 @@ const adminRoutes = require('./routes/admin');
 const shopRoutes = require('./routes/shop');
 app.use(bodyParser.urlencoded({extended: false}));
 
+app.use(express.static(path.join(__dirname,'public')));
+
 app.use('/admin',adminRoutes);
 /* This allows us to put a common starting position */
 app.use(shopRoutes);
