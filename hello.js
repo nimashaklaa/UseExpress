@@ -11,13 +11,17 @@ function will receive 3 arguments => req, res, next
 * basically this next function you are receiving here has to be executed to allow 
 the request to travel on to the next middleware
 */
+app.set('view engine','pug');
+app.set('views','views');
+
 const adminRoutes = require('./routes/admin');
 const shopRoutes = require('./routes/shop');
+const adminData = require("./routes/admin");
 app.use(bodyParser.urlencoded({extended: false}));
 
 app.use(express.static(path.join(__dirname,'public')));
 
-app.use('/admin',adminRoutes);
+app.use('/admin', adminData.routes);
 /* This allows us to put a common starting position */
 app.use(shopRoutes);
 
