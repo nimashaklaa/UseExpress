@@ -2,6 +2,7 @@
 const path = require('path');
 const express = require('express');
 const bodyParser = require('body-parser');
+const expressHbs = require('express-handlebars');
 
 const app = express();
 /* use allow us to add a new middleware function. It accepts an array of so-called
@@ -11,6 +12,8 @@ function will receive 3 arguments => req, res, next
 * basically this next function you are receiving here has to be executed to allow 
 the request to travel on to the next middleware
 */
+//app.engine('hbs', expressHbs());
+//app.set('view engine','hbs');
 app.set('view engine','pug');
 app.set('views','views');
 
@@ -44,7 +47,7 @@ app.post('/product',(req,res,next)=>{
 //catch file
 app.use((req,res,next)=>{
     //res.status(404).sendFile(path.join(__dirname,'views','404.html'));
-    res.status(404).render('404');
+    res.status(404).render('404', {pageTitle: 'Page Not Found'});
 })
 //const server = http.createServer(app);
 
