@@ -5,7 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ffc3ab6f-a210-4b08-a66e-40eba4d95e49" name="Changes" comment="UPDATE all the files with pug">
+      <change afterPath="$PROJECT_DIR$/data/products.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/product.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/404.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/add-product.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/includes/end.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/includes/head.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/includes/navigation.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/shop.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello.js" beforeDir="false" afterPath="$PROJECT_DIR$/hello.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/shop.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/shop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/add-product.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/add-product.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/layouts/main-layout.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/shop.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/shop.pug" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +87,8 @@
       <workItem from="1703131812940" duration="3741000" />
       <workItem from="1703173046078" duration="1287000" />
       <workItem from="1703175485541" duration="2189000" />
-      <workItem from="1703228979806" duration="665000" />
+      <workItem from="1703228979806" duration="1354000" />
+      <workItem from="1703260057503" duration="1667000" />
     </task>
     <task id="LOCAL-00001" summary="UPDATE hello.js">
       <created>1702727295983</created>
@@ -143,7 +161,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703173092762</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="UPDATE all the files with pug">
+      <option name="closed" value="true" />
+      <created>1703231789508</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1703231789508</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
