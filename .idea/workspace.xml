@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ffc3ab6f-a210-4b08-a66e-40eba4d95e49" name="Changes" comment="UPDATE all the files">
+      <change afterPath="$PROJECT_DIR$/views/admin/edit-product.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/admin/products.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/shop/card.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/shop/checkout.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/shop/product-detail.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/products.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/products.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/add-product.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/add-product.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/shop.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/shop/product-list.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/includes/navigation.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/includes/navigation.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +84,7 @@
       <workItem from="1703173046078" duration="1287000" />
       <workItem from="1703175485541" duration="2189000" />
       <workItem from="1703228979806" duration="1354000" />
-      <workItem from="1703260057503" duration="2146000" />
+      <workItem from="1703260057503" duration="3051000" />
     </task>
     <task id="LOCAL-00001" summary="UPDATE hello.js">
       <created>1702727295983</created>
@@ -170,7 +173,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703270212036</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="UPDATE all the files">
+      <option name="closed" value="true" />
+      <created>1703270804416</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1703270804416</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
