@@ -4,25 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffc3ab6f-a210-4b08-a66e-40eba4d95e49" name="Changes" comment="UPDATE all the files with pug">
-      <change afterPath="$PROJECT_DIR$/data/products.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/product.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/404.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/add-product.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/includes/end.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/includes/head.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/includes/navigation.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/shop.ejs" afterDir="false" />
+    <list default="true" id="ffc3ab6f-a210-4b08-a66e-40eba4d95e49" name="Changes" comment="UPDATE all the files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello.js" beforeDir="false" afterPath="$PROJECT_DIR$/hello.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/shop.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/shop.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/add-product.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/add-product.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/layouts/main-layout.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/shop.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/shop.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/products.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/products.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/add-product.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/add-product.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/shop.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/shop/product-list.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +52,13 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\UseExpress\views\shop" />
+      <recent name="F:\UseExpress\views\admin" />
+      <recent name="F:\UseExpress\views" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -88,7 +81,7 @@
       <workItem from="1703173046078" duration="1287000" />
       <workItem from="1703175485541" duration="2189000" />
       <workItem from="1703228979806" duration="1354000" />
-      <workItem from="1703260057503" duration="1667000" />
+      <workItem from="1703260057503" duration="2146000" />
     </task>
     <task id="LOCAL-00001" summary="UPDATE hello.js">
       <created>1702727295983</created>
@@ -169,7 +162,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703231789508</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="UPDATE all the files">
+      <option name="closed" value="true" />
+      <created>1703270212036</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1703270212036</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,6 +192,7 @@
     <MESSAGE value="UPDATE all" />
     <MESSAGE value="UPDATE all the files with routing" />
     <MESSAGE value="UPDATE all the files with pug" />
-    <option name="LAST_COMMIT_MESSAGE" value="UPDATE all the files with pug" />
+    <MESSAGE value="UPDATE all the files" />
+    <option name="LAST_COMMIT_MESSAGE" value="UPDATE all the files" />
   </component>
 </project>
