@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffc3ab6f-a210-4b08-a66e-40eba4d95e49" name="Changes" comment="UPDATE all the files">
-      <change afterPath="$PROJECT_DIR$/views/admin/edit-product.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/products.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/shop/card.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/shop/checkout.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/shop/product-detail.ejs" afterDir="false" />
+    <list default="true" id="ffc3ab6f-a210-4b08-a66e-40eba4d95e49" name="Changes" comment="UPDATE all the ejs files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/includes/navigation.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/includes/navigation.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,21 +34,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2022.3.2\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "F:/metaroon Labs/TypeScript_assignment1",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2022.3.2\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\UseExpress\views\shop" />
@@ -84,7 +79,8 @@
       <workItem from="1703173046078" duration="1287000" />
       <workItem from="1703175485541" duration="2189000" />
       <workItem from="1703228979806" duration="1354000" />
-      <workItem from="1703260057503" duration="3051000" />
+      <workItem from="1703260057503" duration="3140000" />
+      <workItem from="1703305456731" duration="39000" />
     </task>
     <task id="LOCAL-00001" summary="UPDATE hello.js">
       <created>1702727295983</created>
@@ -181,7 +177,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703270804416</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="UPDATE all the ejs files">
+      <option name="closed" value="true" />
+      <created>1703271543960</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1703271543960</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,6 +208,7 @@
     <MESSAGE value="UPDATE all the files with routing" />
     <MESSAGE value="UPDATE all the files with pug" />
     <MESSAGE value="UPDATE all the files" />
-    <option name="LAST_COMMIT_MESSAGE" value="UPDATE all the files" />
+    <MESSAGE value="UPDATE all the ejs files" />
+    <option name="LAST_COMMIT_MESSAGE" value="UPDATE all the ejs files" />
   </component>
 </project>
